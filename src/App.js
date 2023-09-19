@@ -1,9 +1,9 @@
+import Map from "./components/Map";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold text-center underline">
-        Open Street Map
-      </h1>
+    <div className="flex items-center justify-center h-screen">
+      <Map />
     </div>
   );
 }
