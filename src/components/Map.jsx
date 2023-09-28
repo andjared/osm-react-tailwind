@@ -1,10 +1,22 @@
 import "leaflet/dist/leaflet.css";
-import { startTransition, useState } from "react";
-
-import { MapContainer, TileLayer } from "react-leaflet";
+import { useEffect, useState } from "react";
+import { MapContainer, Marker, TileLayer } from "react-leaflet";
 
 export default function Map() {
   const [center, setCenter] = useState([44.8, 15.8]);
+  const [data, setData] = useState([]);
+
+  const getData = async () => {
+    const response = await fetch("../data/properties.json");
+    const data = await response.json();
+    setData(data);
+    return data;
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <MapContainer center={center} zoom={7.5} className="h-5/6 w-3/4 ">
       <TileLayer
