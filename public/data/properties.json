@@ -1,22 +1,26 @@
 [
     {
+      "id": 1,
         "geocode": [43.498332068024645, 16.225650683721295],
         "popup": "CASA BLANCA /WHITE HOUSE/"
     },
-     {
+     {"id": 2,
         "geocode": [45.218390763011485, 14.624806153103618],
         "popup": "Banalu"
     },
       {
+        "id": 3,
         "geocode": [43.313507125263605, 16.4323882955071],
         "popup": "VILA LARA"
     },
      
       {
+        "id": 4,
         "geocode": [44.256532645723084, 15.124198237720385],
         "popup": "Mobilna kućica Blue Bay"
     },
       {
+        "id": 5,
         "geocode": [45.142041023313006, 14.147680524264487],
         "popup": "Villa Danica Snašići"
     }
