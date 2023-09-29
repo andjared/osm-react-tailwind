@@ -26,9 +26,8 @@ export default function Map() {
         url={`https://api.mapbox.com/styles/v1/andja-z/clmz7sti002zy01r7eih71srx/tiles/256/{z}/{x}/{y}?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
       />
       {data.map((property) => {
-        const { geocode, id } = property;
-        console.log(id);
-        return <CustomMarker geocode={geocode} key={id} />;
+        const { geocode, id, popup } = property;
+        return <CustomMarker geocode={geocode} key={id} popupText={popup} />;
       })}
     </MapContainer>
   );
