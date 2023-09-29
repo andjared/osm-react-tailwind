@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-leaflet/static/css/main.9e047fa8.css",
+    "main.js": "/react-leaflet/static/js/main.d360b88c.js",
+    "static/media/markerIcon.png": "/react-leaflet/static/media/markerIcon.64cdcb0ef97818161310.png",
+    "index.html": "/react-leaflet/index.html",
+    "main.9e047fa8.css.map": "/react-leaflet/static/css/main.9e047fa8.css.map",
+    "main.d360b88c.js.map": "/react-leaflet/static/js/main.d360b88c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e047fa8.css",
+    "static/js/main.d360b88c.js"
+  ]
+}
