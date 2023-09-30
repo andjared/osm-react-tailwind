@@ -9,7 +9,7 @@ export default function Map() {
   // const [data, setData] = useState([]);
 
   // const getData = async () => {
-  //   const response = await fetch("./properties.json");
+  //   const response = await fetch("../properties.json");
   //   console.log(response);
   //   const data = await response.json();
   //   console.log(data);
@@ -28,8 +28,15 @@ export default function Map() {
         url={`https://api.mapbox.com/styles/v1/andja-z/clmz7sti002zy01r7eih71srx/tiles/256/{z}/{x}/{y}?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
       />
       {properties.map((property) => {
-        const { geocode, id, popup } = property;
-        return <CustomMarker geocode={geocode} key={id} popupText={popup} />;
+        const { geocode, id, popup, price } = property;
+        return (
+          <CustomMarker
+            geocode={geocode}
+            key={id}
+            popupText={popup}
+            price={price}
+          />
+        );
       })}
     </MapContainer>
   );
