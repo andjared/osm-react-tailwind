@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/react-leaflet/static/css/main.9e047fa8.css",
-    "main.js": "/react-leaflet/static/js/main.d360b88c.js",
-    "static/media/markerIcon.png": "/react-leaflet/static/media/markerIcon.64cdcb0ef97818161310.png",
+    "main.css": "/react-leaflet/static/css/main.e7992832.css",
+    "main.js": "/react-leaflet/static/js/main.25deb48e.js",
     "index.html": "/react-leaflet/index.html",
-    "main.9e047fa8.css.map": "/react-leaflet/static/css/main.9e047fa8.css.map",
-    "main.d360b88c.js.map": "/react-leaflet/static/js/main.d360b88c.js.map"
+    "main.e7992832.css.map": "/react-leaflet/static/css/main.e7992832.css.map",
+    "main.25deb48e.js.map": "/react-leaflet/static/js/main.25deb48e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e047fa8.css",
-    "static/js/main.d360b88c.js"
+    "static/css/main.e7992832.css",
+    "static/js/main.25deb48e.js"
   ]
 }
