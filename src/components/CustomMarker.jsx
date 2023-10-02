@@ -2,7 +2,6 @@ import { Marker, Popup } from "react-leaflet";
 import { divIcon } from "leaflet";
 
 export default function CustomMarker({ geocode, popupText, price }) {
-  console.log(price);
   const iconMarkup = `<span className="inline-block text-center ">$${price}</span>`;
   const customIcon = new divIcon({
     html: iconMarkup,
