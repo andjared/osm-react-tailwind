@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-leaflet/static/css/main.e7992832.css",
-    "main.js": "/react-leaflet/static/js/main.25deb48e.js",
+    "main.js": "/react-leaflet/static/js/main.d05f0618.js",
     "index.html": "/react-leaflet/index.html",
     "main.e7992832.css.map": "/react-leaflet/static/css/main.e7992832.css.map",
-    "main.25deb48e.js.map": "/react-leaflet/static/js/main.25deb48e.js.map"
+    "main.d05f0618.js.map": "/react-leaflet/static/js/main.d05f0618.js.map"
   },
   "entrypoints": [
     "static/css/main.e7992832.css",
-    "static/js/main.25deb48e.js"
+    "static/js/main.d05f0618.js"
   ]
 }
